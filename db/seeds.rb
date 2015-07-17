@@ -25,6 +25,6 @@ hotels.each_with_index do |hotel, index|
 end
 
 # Creates bookings
-20.times do
-  Booking.create!(guest_id: rand(1..10) , room_id: rand(1..200) )
+5000.times do
+  Booking.create!(guest_id: rand(1..8) , room_id: rand(1..200) )
 end
