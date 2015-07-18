@@ -1,28 +1,7 @@
-== README
+Welcome to Bookings.yeah
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run this rails app simply:
 
-Things you may want to cover:
+ - clone this repo and in terminal type in "rake ultimatequest"
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This will demonstrate the relative runtime speeds between .include, .join, and simple enumeration (X.all.each) when pulling associated ActiveRecord records for the same query.
